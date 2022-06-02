@@ -16,17 +16,16 @@
         android:orientation="horizontal"
         android:layout_marginBottom="20dp"
         >
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="@font/poppins_semibold"
-            android:text="Planetas"
-            android:gravity="start|bottom"
+            android:text="MARVEL"
+            android:gravity="center"
             android:layout_marginLeft="15dp"
-            android:textColor="@color/white"
+            android:textColor="@color/red"
             android:textStyle="bold"
-            android:textSize="25sp" />
+            android:textSize="38sp" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
