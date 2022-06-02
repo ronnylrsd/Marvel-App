@@ -27,7 +27,7 @@
             android:layout_height="110dp"
             android:layout_gravity="center_horizontal"
             android:elevation="40dp"
-            android:src="@drawable/ic_earth"
+            android:src="@drawable/marvel"
             />
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"

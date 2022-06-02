@@ -12,7 +12,7 @@
         android:id="@+id/planet_img"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_earth"
+        android:src="@drawable/marvel"
         android:elevation="30dp"/>
 
     <androidx.cardview.widget.CardView
@@ -22,7 +22,7 @@
         android:layout_marginEnd="10dp"
         app:cardElevation="20dp"
         app:cardCornerRadius="5dp"
-        android:backgroundTint="@color/secondary"
+        android:backgroundTint="@color/black"
         >
 
         <LinearLayout
@@ -69,7 +69,7 @@
                 android:layout_width="30dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="5dp"
-                android:background="#03A9F4"
+                android:background="@color/red"
                 android:orientation="vertical"/>
 
             <LinearLayout
@@ -80,12 +80,13 @@
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="23dp"
-                        android:src="@drawable/ic_distance"/>
+                        android:src="@drawable/power"/>
                 <TextView
                     android:id="@+id/distance"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="2dp"
+                    android:layout_marginTop="3.5dp"
                     android:fontFamily="@font/poppins_regular"
                     android:text="54.6m km"
                     android:textColor="@color/subtext"
@@ -94,12 +95,13 @@
                         android:layout_width="20dp"
                         android:layout_height="23dp"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/ic_gravity"/>
+                        android:src="@drawable/weakness"/>
                 <TextView
                     android:id="@+id/gravity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
+                    android:layout_marginTop="3.5dp"
                     android:fontFamily="@font/poppins_regular"
                     android:text="3.711 m/ss"
                     android:textColor="@color/subtext"

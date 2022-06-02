@@ -39,34 +39,34 @@ class Adapter(var planet:List<PlanetData>): RecyclerView.Adapter<Adapter.myViewH
 
         when(planet[position].title!!.toLowerCase()){
             "iron man"->{
-                dummyImage=R.drawable.ic_mars
+                dummyImage=R.drawable.iron
             }
             "thor"->{
-                dummyImage=R.drawable.ic_neptune
+                dummyImage=R.drawable.thor
             }
             "hulk"->{
-                dummyImage=R.drawable.ic_earth
+                dummyImage=R.drawable.hulk
             }
             "capitain america"->{
-                dummyImage=R.drawable.ic_moon
+                dummyImage=R.drawable.american
             }
             "black widow"->{
-                dummyImage=R.drawable.ic_venus
+                dummyImage=R.drawable.widow
             }
             "scarlate witch"->{
-                dummyImage=R.drawable.ic_jupiter
+                dummyImage=R.drawable.scarlate
             }
             "vision"->{
-                dummyImage=R.drawable.ic_saturn
+                dummyImage=R.drawable.vision
             }
             "black panther"->{
-                dummyImage=R.drawable.ic_uranus
+                dummyImage=R.drawable.panther
             }
             "spider man"->{
-                dummyImage=R.drawable.ic_mercury
+                dummyImage=R.drawable.spider
             }
             "doctor strange"->{
-                dummyImage=R.drawable.ic_sun
+                dummyImage=R.drawable.strange
             }
 
         }

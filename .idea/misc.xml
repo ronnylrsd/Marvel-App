@@ -3,13 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1805" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/bg_footer.xml" value="0.1805" />
         <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/bg_header.xml" value="0.1815" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_earth.xml" value="0.1805" />
         <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_jupiter.xml" value="0.1805" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1805" />
         <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_mars.xml" value="0.1815" />
         <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_mercury.xml" value="0.1" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_neptune.xml" value="0.1805" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_saturn.xml" value="0.1805" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_sun.xml" value="0.1805" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_uranus.xml" value="0.1805" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/drawable/ic_venus.xml" value="0.1805" />
         <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/layout/activity_final.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/layout/activity_planet_detail.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/layout/activity_splash_screen.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Davi/Documents/GitHub/Planetas/app/src/main/res/layout/view.xml" value="0.5" />
         <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/drawable/bg_footer.xml" value="0.1835" />
         <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/drawable/bg_header.xml" value="0.2105" />
         <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/drawable/ic_earth.xml" value="0.2115" />

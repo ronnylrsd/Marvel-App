@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/primary"
+    android:background="@color/black"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
@@ -12,13 +12,13 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/ic_saturn"
+        android:src="@drawable/marvel"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Planetas"
+        android:text="MARVEL HEROES"
         android:textStyle="bold"
         android:textColor="@color/white"
         android:fontFamily="@font/poppins_semibold"
@@ -26,16 +26,16 @@
         android:letterSpacing="0.1"/>
 
     <View
-        android:layout_width="30dp"
+        android:layout_width="100dp"
         android:layout_height="1dp"
         android:layout_marginTop="-2dp"
-        android:background="#03A9F4"
+        android:background="@color/red"
         android:orientation="vertical"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Book Your Ride"
+        android:text="Explore the universe"
         android:layout_marginTop="10dp"
         android:letterSpacing=".2"
         android:fontFamily="@font/poppins_semibold"
