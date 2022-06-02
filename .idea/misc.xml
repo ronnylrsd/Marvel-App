@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/drawable/bg_footer.xml" value="0.1835" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/drawable/bg_header.xml" value="0.2105" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/drawable/ic_earth.xml" value="0.2115" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/drawable/ic_jupiter.xml" value="0.2115" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/drawable/ic_sun.xml" value="0.2115" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/drawable/ic_venus.xml" value="0.2115" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/layout/activity_final.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/layout/activity_planet_detail.xml" value="0.22" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/ronny/AndroidStudioProjects/Planetas/app/src/main/res/layout/view.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
