@@ -15,13 +15,8 @@ class FinalActivity : AppCompatActivity() {
             systemUiVisibility =
                 View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_FULLSCREEN
         }
-
         davi_info.setOnClickListener {
             openDaviScreen()
-        }
-
-        button_back_details.setOnClickListener(){
-            onBackPressed()
         }
     }
 
