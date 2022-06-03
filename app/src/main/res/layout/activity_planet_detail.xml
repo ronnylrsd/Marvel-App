@@ -168,7 +168,15 @@
 
         </ScrollView>
 
+        <Button
+            android:id="@+id/button_back_home"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/accentRed"
+            android:text="Back to homepage" />
+
         <TextView
+            android:layout_marginTop="10dp"
             android:id="@+id/button_info"
             android:layout_width="match_parent"
             android:layout_height="50dp"

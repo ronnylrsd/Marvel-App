@@ -23,6 +23,10 @@ class PlanetDetail : AppCompatActivity() {
             val intent=Intent(this,FinalActivity::class.java)
             startActivity(intent)
         }
+
+        button_back_home.setOnClickListener(){
+            onBackPressed()
+        }
     }
     private fun setData(obj:PlanetData,planetImg:Int){
         title_info.text=obj.title
