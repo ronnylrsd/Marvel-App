@@ -2,107 +2,107 @@ package br.unicap.c3.pwm.planetas
 
 object setData {
     fun SetPlanets():List<PlanetData>{
-        var Planetlist = mutableListOf<PlanetData>()
-        Planetlist.add(
+        var HeroList = mutableListOf<PlanetData>()
+        HeroList.add(
             PlanetData(
                 1,
                 "Iron Man",
-                "Iron man",
+                "Earth",
                 "227.9",
-                "3.721",
-                "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\".\nThe latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye.\nMars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth."
+                "Armor",
+                "He is the Armored Avenger - driven by a heart that is part machine, but all hero! He is the INVINCIBLE IRON MAN! Iron Man's Powers and Abilities: Wears modular arc reactor-powered Iron Man armor, granting superhuman strength & durability, the ability to fly & project Repulsor blasts."
             )
         )
-        Planetlist.add(
+        HeroList.add(
             PlanetData(
                 2,
                 "Thor",
-                "Milkyway Galaxy",
-                "150.0",
-                "1.62",
+                "Asgard",
+                "280.2",
+                "Hammer",
                 "The Moon is Earth's only natural satellite. At about one-quarter the diameter of Earth (comparable to the width of Australia), it is the largest natural satellite in the Solar System relative to the size of its planet, the fifth largest satellite in the Solar System overall, and is larger than any dwarf planet.\nOrbiting Earth at an average distance of 384,400 km (238,900 mi), or about 30 times Earth's diameter, its gravitational influence slightly lengthens Earth's day and is the main driver of Earth's tides. The Moon is classified as a planetary-mass object and a differentiated rocky body, and lacks any significant atmosphere, hydrosphere, or magnetic field.\nIts surface gravity is about one-sixth of Earth's (0.1654 g); Jupiter's moon Io is the only satellite in the Solar System known to have a higher surface gravity and density."
             )
         )
-        Planetlist.add(
+        HeroList.add(
             PlanetData(
                 3,
                 "Hulk",
-                "Milkyway Galaxy",
-                "4497.1",
-                "11.15",
-                "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet.\n It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. The planet orbits the Sun once every 164.8 years at an average distance of 30.1 AU (4.5 billion km; 2.8 billion mi).\nIt is named after the Roman god of the sea and has the astronomical symbol ♆, a stylised version of the god Neptune's trident."
+                "Earth",
+                "370.2",
+                "Neck",
+                "A massive dose of gamma radiation transformed the brilliant but meek scientist Bruce Banner's DNA, awakening the hidden, adrenaline-fed hero in his genes... HULK! A hero of few words and incredible strength, the Hulk has long been pursued by those who want to use his immense power for their own purposes, or by those who thought the Jade Giant's anger was too dangerous to be controlled. Now, as a member of the Avengers, Hulk helps smash the unimaginable threats that no Hero could face alone, hoping to at least prove to the world that he is the strongest HERO there is!"
             )
         )
-        Planetlist.add(
+        HeroList.add(
             PlanetData(
                 4,
-                "Capitain America",
-                "Milkyway Galaxy",
-                "149.6",
-                "9.807",
-                "Earth is the third planet from the Sun and the only astronomical object known to harbor and support life. About 29.2% of Earth's surface is land consisting of continents and islands. The remaining 70.8% is covered with water, mostly by oceans, seas, gulfs, and other salt-water bodies, but also by lakes, rivers, and other freshwater, which together constitute the hydrosphere.\n Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years, while its interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convective mantle that drives plate tectonics."
+                "Capitan America",
+                "Earth",
+                "220.6",
+                "Strong Blows",
+                "During WWII, the patriotic Steve Rogers was offered a place in the military's top operation: Rebirth. Injected with an experimental super-serum, Rogers emerged from the treatment with heightened endurance, strength, and reaction time. With extensive training and an indestructible Vibranium shield, Rogers soon became the country's ultimate weapon: CAPTAIN AMERICA! Though frozen in ice during a climactic battle toward the end of the war, Rogers was discovered and revived decades later. Now the living legend continues the war against evil in modern times as a member of The Avengers!"
             )
         )
-        Planetlist.add(
+        HeroList.add(
             PlanetData(
                 5,
                 "Black Widow",
-                "Milkyway Galaxy",
-                "108.2",
-                "8.87",
-                "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.\n Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a little while before dawn. Venus orbits the Sun every 224.7 Earth days.\n With a rotation period of 243 Earth days, it takes significantly longer to rotate about its axis than any other planet in the Solar System, and does so in the opposite direction to all but Uranus (meaning the Sun rises in the west and sets in the east). Venus does not have any moons, a distinction it shares only with Mercury among the planets in the Solar System."
+                "Earth",
+                "180.2",
+                "Human",
+                "Natasha Romanoff is the super-spy known as the Black Widow! Trained extensively in the art of espionage and outfitted with state-of-the-art equipment, Black Widow's combat skills are virtually unmatched. One of S.H.I.E.L.D's most valuable agents, she has carried out numerous black-ops missions and has recently been assigned by Director Nick Fury to keep an eye on the Avengers."
             )
         )
-        Planetlist.add(
+        HeroList.add(
             PlanetData(
                 6,
-                "Scarlate Witch",
-                "Milkyway Galaxy",
-                "2871.0",
-                "8.87",
-                "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn).\nIt has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as \"ice giants\" to distinguish them from the other gas giants.\nUranus's atmosphere is similar to Jupiter's and Saturn's in its primary composition of hydrogen and helium, but it contains more \"ices\" such as water, ammonia, and methane, along with traces of other hydrocarbons. It has the coldest planetary atmosphere in the Solar System."
+                "Scarlet Witch",
+                "Earth",
+                "450.3",
+                "Mental Illness",
+                "Wanda is a serious and introverted individual with emotional fragility due to her upbringing. At her core, however, Wanda has a caring personality devoted to protecting innocents, and a willingness to fight for what she feels is right. While she is very passionate about her beliefs and quite direct about how she feels, this has proven to be a deadly flaw, as it makes her prone to impulsiveness and error. Included was siding with Ultron, an impact that deeply influences much of her actions thereafter."
             )
         )
-        Planetlist.add(
+        HeroList.add(
             PlanetData(
                 7,
                 "Vision",
-                "Milkyway Galaxy",
-                "0",
-                "274.0",
-                "The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy mainly as visible light and infrared radiation. It is by far the most important source of energy for life on Earth. Its diameter is about 1.39 million kilometres (864,000 miles), or 109 times that of Earth. Its mass is about 330,000 times that of Earth; it accounts for about 99.86% of the total mass of the Solar System.\nRoughly three quarters of the Sun's mass consists of hydrogen (~73%); the rest is mostly helium (~25%), with much smaller quantities of heavier elements, including oxygen, carbon, neon and iron."
+                "Mind Stone",
+                "400.2",
+                "Your Mind",
+                "Driven by an extremely lifelike artificial intelligence and possessing a nearly indestructible robotic body, the synthetic android called the Vision has taken his place among Earth’s Mightiest Heroes, the Avengers! In addition to his surprisingly human personality, the Vision exhibits an impressive compliment of abilities, including flight, complete control over his molecular density and the ability to fire energy blasts from the jewel on his forehead."
             )
         )
-        Planetlist.add(
+        HeroList.add(
             PlanetData(
                 8,
                 "Black Panther",
-                "Milkyway Galaxy",
-                "1427.0",
-                "10.44",
-                "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.\n It only has one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive. Saturn is named after the Roman god of wealth and agriculture; its astronomical symbol (♄) represents the god's sickle.\n The Romans named the seventh day of the week Saturday, Sāturni diēs (\"Saturn's Day\") no later than the 2nd century for the planet Saturn."
+                "Wakanda",
+                "200.9",
+                "Strong Nationalism",
+                "Monarch of the secluded but technologically advanced African nation of Wakanda, King TChalla is the Black Panther; a sacred title that must be both inherited & earned by the current Wakandan ruler. Granted superhuman powers by ceremonially consuming a mystical heart-shaped herb, the Black Panther is responsible for defending his people, and the world, from any threats."
             )
         )
-        Planetlist.add(
+        HeroList.add(
             PlanetData(
                 9,
                 "Spider Man",
-                "Milkyway Galaxy",
-                "778.3",
-                "24.79",
-                "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass (more than) two and a half times that of all the other planets in the Solar System combined, but (a little) less than one-thousandth the mass of the Sun.\nJupiter is the third-brightest natural object in the Earth's night sky after the Moon and Venus. It has been observed since pre-historic times and is named after the Roman god Jupiter, the king of the gods, because of its massive size"
+                "Earth",
+                "190.2",
+                "Anti-Venom",
+                "The bite from a radioactive spider granted Peter Parker amazing arachnid-like powers. After losing his beloved Uncle Ben to a burglar, grief- stricken Peter vowed to use his incredible abilities to protect his city as the Amazing Spider-Man. Peter’s trials taught him an invaluable lesson: with great power, there must also come great responsibility."
             )
         )
-        Planetlist.add(
+        HeroList.add(
             PlanetData(
                 10,
                 "Doctor Strange",
-                "Milkyway Galaxy",
-                "57.9",
-                "3.7",
-                "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes (Ἑρμῆς).\nLike Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28°.\nThis proximity to the Sun means the planet can only be seen near the western horizon after sunset or the eastern horizon before sunrise, usually in twilight. At this time, it may appear as a bright star-like object but is often far more difficult to observe than Venus.\nFrom Earth, the planet telescopically displays the complete range of phases, similar to Venus and the Moon, which recurs over its synodic period of approximately 116 days."
+                "Earth",
+                "428.7",
+                "Your Hands",
+                "Distinguished neurosurgeon Doctor Stephen Strange's self-important worldview was shattered, along with his steady operating hands, in a fateful car accident. Desperate to heal his injuries and pride, Strange sought out a legendary safe known as the Ancient One, becoming a pupil of the mystic arts. Learning that his true worth had always come from within, Strange uncovered his full potential and was chosen to become the Sorcerer Supreme, the world's pre-eminent defender against the darkness that lurks beyond."
             )
         )
-        return Planetlist
+        return HeroList
     }
 }

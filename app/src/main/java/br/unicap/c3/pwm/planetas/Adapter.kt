@@ -33,9 +33,9 @@ class Adapter(var planet:List<PlanetData>): RecyclerView.Adapter<Adapter.myViewH
             holder.itemView.context.startActivity(intent)
         }
         holder.title.text=planet[position].title
-        holder.galaxy.text=planet[position].galaxy
-        holder.distance.text=planet[position].distance+" m km"
-        holder.gravity.text=planet[position].gravity+" m/ss"
+        holder.galaxy.text=planet[position].locality
+        holder.distance.text=planet[position].power
+        holder.gravity.text=planet[position].weakness
 
         when(planet[position].title!!.toLowerCase()){
             "iron man"->{
@@ -47,13 +47,13 @@ class Adapter(var planet:List<PlanetData>): RecyclerView.Adapter<Adapter.myViewH
             "hulk"->{
                 dummyImage=R.drawable.hulk
             }
-            "capitain america"->{
+            "capitan america"->{
                 dummyImage=R.drawable.american
             }
             "black widow"->{
                 dummyImage=R.drawable.widow
             }
-            "scarlate witch"->{
+            "scarlet witch"->{
                 dummyImage=R.drawable.scarlate
             }
             "vision"->{

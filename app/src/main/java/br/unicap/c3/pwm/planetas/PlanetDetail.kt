@@ -20,15 +20,15 @@ class PlanetDetail : AppCompatActivity() {
         setData(obj, planetImg!!)
 
         button_info.setOnClickListener{
-            val intent=Intent(this,finalActivity::class.java)
+            val intent=Intent(this,FinalActivity::class.java)
             startActivity(intent)
         }
     }
     private fun setData(obj:PlanetData,planetImg:Int){
         title_info.text=obj.title
-        galaxy_info.text=obj.galaxy
-        distance_info.text=obj.distance+" m km"
-        gravity_info.text=obj.gravity+" m/ss"
+        galaxy_info.text=obj.locality
+        distance_info.text=obj.power
+        gravity_info.text=obj.weakness
         overview_info.text=obj.overview
         planet_info_img.setImageResource(planetImg)
     }

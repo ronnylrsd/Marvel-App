@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".finalActivity"
+            android:name=".FinalActivity"
             android:screenOrientation="portrait"
             android:exported="true"/>
         <activity

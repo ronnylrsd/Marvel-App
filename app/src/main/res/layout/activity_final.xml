@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/primary"
+    android:background="@color/red"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".finalActivity">
+    tools:context=".FinalActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/red"
+        android:backgroundTint="@color/black"
         app:cardCornerRadius="15dp"
         android:layout_gravity="center"
         app:cardElevation="5dp">
@@ -24,36 +24,40 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/marvel"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/davi"
+                android:elevation="40dp"
+                />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/joao"
                 android:elevation="40dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/poppins_semibold"
-                android:text="Ohhhhhh!"
-                android:textColor="#FF5722"
-                android:textSize="22sp"
-                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ronny"
+                android:elevation="40dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/poppins_regular"
-                android:text="your planet is not serviceable"
+                android:text="Developers:"
                 android:textColor="@color/white"
                 android:textSize="20sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
+                android:textAlignment="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="Elon is trying something"
+                android:text="Davi Mateus, Ronny Lima, João Vitor Machado"
                 android:textColor="@color/white"
                 android:textSize="22sp"
                 android:textStyle="bold"/>

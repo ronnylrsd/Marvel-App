@@ -6,9 +6,9 @@ import android.os.Parcelable
 data class PlanetData(
     val id:Int?,
     val title:String?,
-    val galaxy:String?,
-    val distance:String?,
-    val gravity:String?,
+    val locality:String?,
+    val power:String?,
+    val weakness:String?,
     val overview:String?
 ):Parcelable{
     constructor(parcel: Parcel) : this(
@@ -24,9 +24,9 @@ data class PlanetData(
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeValue(id)
         parcel.writeString(title)
-        parcel.writeString(galaxy)
-        parcel.writeString(distance)
-        parcel.writeString(gravity)
+        parcel.writeString(locality)
+        parcel.writeString(power)
+        parcel.writeString(weakness)
         parcel.writeString(overview)
     }
 

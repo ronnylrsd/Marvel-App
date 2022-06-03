@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
+    android:background="@color/black"
     android:orientation="vertical"
     tools:context=".PlanetDetail">
 
@@ -35,7 +35,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="-50dp"
-            android:backgroundTint="@color/secondary"
+            android:backgroundTint="@color/accentRed"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             >
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="Terra"
+                    android:text="Hero"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold"/>
@@ -62,7 +62,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="Via Láctea"
+                    android:text="Hero"
                     android:textColor="@color/subtext"
                     android:textSize="14sp"
                     android:layout_marginTop="-5dp"/>
@@ -71,7 +71,7 @@
                     android:layout_width="30dp"
                     android:layout_height="1dp"
                     android:layout_marginTop="5dp"
-                    android:background="#03A9F4"
+                    android:background="@color/black"
                     android:orientation="vertical"/>
 
                 <LinearLayout
@@ -83,28 +83,30 @@
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_distance"/>
+                        android:src="@drawable/power"/>
                     <TextView
                         android:id="@+id/distance_info"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="4dp"
+                        android:layout_marginTop="2dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="54.6m km"
+                        android:text="54.6"
                         android:textColor="@color/subtext"
                         android:textSize="14sp"/>
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="24dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/ic_gravity"/>
+                        android:src="@drawable/weakness"/>
                     <TextView
                         android:id="@+id/gravity_info"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="4dp"
+                        android:layout_marginTop="2dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="3.711 m/ss"
+                        android:text="3.711"
                         android:textColor="@color/subtext"
                         android:textSize="14sp"/>
                 </LinearLayout>
@@ -144,10 +146,10 @@
                     />
 
                 <View
-                    android:layout_width="30dp"
+                    android:layout_width="60dp"
                     android:layout_height="1dp"
                     android:layout_marginTop="5dp"
-                    android:background="#03A9F4"
+                    android:background="@color/accentRed"
                     android:orientation="vertical"/>
 
                 <TextView
@@ -158,7 +160,7 @@
                     android:fontFamily="@font/poppins_regular"
                     android:letterSpacing="0.1"
                     android:lineSpacingExtra="1dp"
-                    android:text="Earth is the third planet from the Sun and the only astronomical object known to harbor and support life. About 29.2% of Earth's surface is land consisting of continents and islands. The remaining 70.8% is covered with water, mostly by oceans, seas, gulfs, and other salt-water bodies, but also by lakes, rivers, and other freshwater, which together constitute the hydrosphere.\n Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years, while its interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convective mantle that drives plate tectonics."
+                    android:text="Distinguished neurosurgeon Doctor Stephen Strange's self-important worldview was shattered, along with his steady operating hands, in a fateful car accident. Desperate to heal his injuries and pride, Strange sought out a legendary safe known as the Ancient One, becoming a pupil of the mystic arts. Learning that his true worth had always come from within, Strange uncovered his full potential and was chosen to become the Sorcerer Supreme, the world's pre-eminent defender against the darkness that lurks beyond."
                     android:textColor="@color/subtext"
                     android:textSize="13sp"/>
             </LinearLayout>
@@ -174,9 +176,9 @@
             android:elevation="10dp"
             android:fontFamily="@font/poppins_regular"
             android:gravity="center"
-            android:text="Book Your Ride >"
+            android:text="Developers >"
             android:textAllCaps="true"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
             />
     </LinearLayout>
