@@ -1,10 +1,10 @@
-package br.unicap.c3.pwm.planetas
+package br.unicap.c3.pwm.marvel
 
 object setData {
-    fun SetPlanets():List<PlanetData>{
-        var HeroList = mutableListOf<PlanetData>()
+    fun setHeroes():List<MarvelData>{
+        var HeroList = mutableListOf<MarvelData>()
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 1,
                 "Iron Man",
                 "Earth",
@@ -14,7 +14,7 @@ object setData {
             )
         )
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 2,
                 "Thor",
                 "Asgard",
@@ -24,7 +24,7 @@ object setData {
             )
         )
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 3,
                 "Hulk",
                 "Earth",
@@ -34,7 +34,7 @@ object setData {
             )
         )
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 4,
                 "Capitan America",
                 "Earth",
@@ -44,7 +44,7 @@ object setData {
             )
         )
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 5,
                 "Black Widow",
                 "Earth",
@@ -54,7 +54,7 @@ object setData {
             )
         )
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 6,
                 "Scarlet Witch",
                 "Earth",
@@ -64,7 +64,7 @@ object setData {
             )
         )
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 7,
                 "Vision",
                 "Mind Stone",
@@ -74,7 +74,7 @@ object setData {
             )
         )
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 8,
                 "Black Panther",
                 "Wakanda",
@@ -84,7 +84,7 @@ object setData {
             )
         )
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 9,
                 "Spider Man",
                 "Earth",
@@ -94,7 +94,7 @@ object setData {
             )
         )
         HeroList.add(
-            PlanetData(
+            MarvelData(
                 10,
                 "Doctor Strange",
                 "Earth",

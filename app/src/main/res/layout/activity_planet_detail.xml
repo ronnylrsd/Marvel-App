@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:orientation="vertical"
-    tools:context=".PlanetDetail">
+    tools:context="br.unicap.c3.pwm.marvel.MarvelDetail">
 
     <ImageView
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
         android:layout_marginTop="-50dp"
         android:orientation="vertical">
         <ImageView
-            android:id="@+id/planet_info_img"
+            android:id="@+id/marvel_info_img"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_gravity="center_horizontal"
@@ -58,7 +58,7 @@
                     android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/galaxy_info"
+                    android:id="@+id/locality_info"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -85,7 +85,7 @@
                         android:layout_height="24dp"
                         android:src="@drawable/power"/>
                     <TextView
-                        android:id="@+id/distance_info"
+                        android:id="@+id/power_info"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="4dp"
@@ -100,7 +100,7 @@
                         android:layout_marginStart="20dp"
                         android:src="@drawable/weakness"/>
                     <TextView
-                        android:id="@+id/gravity_info"
+                        android:id="@+id/weakness_info"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="4dp"

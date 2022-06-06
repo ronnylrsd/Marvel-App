@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".SplashScreen">
+    tools:context="br.unicap.c3.pwm.marvel.SplashScreen">
 
     <ImageView
         android:layout_width="150dp"

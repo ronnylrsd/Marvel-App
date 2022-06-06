@@ -14,10 +14,10 @@
         android:theme="@style/Theme.Planetas"
         tools:targetApi="31">
         <activity
-            android:name=".daviScreen"
+            android:name="br.unicap.c3.pwm.marvel.daviScreen"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name="br.unicap.c3.pwm.marvel.SplashScreen"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -27,15 +27,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FinalActivity"
+            android:name="br.unicap.c3.pwm.marvel.FinalActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PlanetDetail"
+            android:name="br.unicap.c3.pwm.marvel.MarvelDetail"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="br.unicap.c3.pwm.marvel.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
     </application>

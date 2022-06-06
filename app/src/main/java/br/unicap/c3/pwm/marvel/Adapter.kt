@@ -1,4 +1,4 @@
-package br.unicap.c3.pwm.planetas
+package br.unicap.c3.pwm.marvel
 
 
 import android.content.Intent
@@ -6,16 +6,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import br.unicap.c3.pwm.planetas.R
 import kotlinx.android.synthetic.main.view.view.*
 
-class Adapter(var planet:List<PlanetData>): RecyclerView.Adapter<Adapter.myViewHolder>() {
+class Adapter(var marvel:List<MarvelData>): RecyclerView.Adapter<Adapter.myViewHolder>() {
 
     class myViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var title = view.title
-        var planetimg = view.planet_img
-        var galaxy = view.galaxy
-        var distance = view.distance
-        var gravity = view.gravity
+        var marvelimg = view.marvel_img
+        var locality = view.locality
+        var power = view.power
+        var weakness = view.weakness
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): myViewHolder {
@@ -27,56 +28,56 @@ class Adapter(var planet:List<PlanetData>): RecyclerView.Adapter<Adapter.myViewH
     override fun onBindViewHolder(holder: myViewHolder, position: Int) {
         var dummyImage:Int?=null
         holder.itemView.setOnClickListener{
-            val intent = Intent(holder.itemView.context,PlanetDetail::class.java)
-            intent.putExtra("planet",planet[position])
-            intent.putExtra("planetImage",dummyImage)
+            val intent = Intent(holder.itemView.context, MarvelDetail::class.java)
+            intent.putExtra("marvel",marvel[position])
+            intent.putExtra("marvelImage",dummyImage)
             holder.itemView.context.startActivity(intent)
         }
-        holder.title.text=planet[position].title
-        holder.galaxy.text=planet[position].locality
-        holder.distance.text=planet[position].power
-        holder.gravity.text=planet[position].weakness
+        holder.title.text=marvel[position].title
+        holder.locality.text=marvel[position].locality
+        holder.power.text=marvel[position].power
+        holder.weakness.text=marvel[position].weakness
 
-        when(planet[position].title!!.toLowerCase()){
+        when(marvel[position].title!!.toLowerCase()){
             "iron man"->{
-                dummyImage=R.drawable.iron
+                dummyImage= R.drawable.iron
             }
             "thor"->{
-                dummyImage=R.drawable.thor
+                dummyImage= R.drawable.thor
             }
             "hulk"->{
-                dummyImage=R.drawable.hulk
+                dummyImage= R.drawable.hulk
             }
             "capitan america"->{
-                dummyImage=R.drawable.american
+                dummyImage= R.drawable.american
             }
             "black widow"->{
-                dummyImage=R.drawable.widow
+                dummyImage= R.drawable.widow
             }
             "scarlet witch"->{
-                dummyImage=R.drawable.scarlate
+                dummyImage= R.drawable.scarlate
             }
             "vision"->{
-                dummyImage=R.drawable.vision
+                dummyImage= R.drawable.vision
             }
             "black panther"->{
-                dummyImage=R.drawable.panther
+                dummyImage= R.drawable.panther
             }
             "spider man"->{
-                dummyImage=R.drawable.spider
+                dummyImage= R.drawable.spider
             }
             "doctor strange"->{
-                dummyImage=R.drawable.strange
+                dummyImage= R.drawable.strange
             }
 
         }
         if (dummyImage != null) {
-            holder.planetimg.setImageResource(dummyImage!!)
+            holder.marvelimg.setImageResource(dummyImage!!)
         }
 
     }
 
     override fun getItemCount(): Int {
-        return planet.size
+        return marvel.size
     }
 }

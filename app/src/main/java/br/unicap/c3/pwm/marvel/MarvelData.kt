@@ -1,9 +1,9 @@
-package br.unicap.c3.pwm.planetas
+package br.unicap.c3.pwm.marvel
 
 import android.os.Parcel
 import android.os.Parcelable
 
-data class PlanetData(
+data class MarvelData(
     val id:Int?,
     val title:String?,
     val locality:String?,
@@ -34,12 +34,12 @@ data class PlanetData(
         return 0
     }
 
-    companion object CREATOR : Parcelable.Creator<PlanetData> {
-        override fun createFromParcel(parcel: Parcel): PlanetData {
-            return PlanetData(parcel)
+    companion object CREATOR : Parcelable.Creator<MarvelData> {
+        override fun createFromParcel(parcel: Parcel): MarvelData {
+            return MarvelData(parcel)
         }
 
-        override fun newArray(size: Int): Array<PlanetData?> {
+        override fun newArray(size: Int): Array<MarvelData?> {
             return arrayOfNulls(size)
         }
     }

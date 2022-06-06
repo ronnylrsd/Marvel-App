@@ -1,9 +1,10 @@
-package br.unicap.c3.pwm.planetas
+package br.unicap.c3.pwm.marvel
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
+import br.unicap.c3.pwm.planetas.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         window.decorView.apply { systemUiVisibility=
         View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_FULLSCREEN}
-        my_recycler.adapter=Adapter(setData.SetPlanets())
+        my_recycler.adapter= Adapter(setData.setHeroes())
         my_recycler.layoutManager=LinearLayoutManager(this)
     }
 }

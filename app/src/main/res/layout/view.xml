@@ -9,7 +9,7 @@
     android:padding="10dp">
 
     <ImageView
-        android:id="@+id/planet_img"
+        android:id="@+id/marvel_img"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/marvel"
@@ -56,7 +56,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/galaxy"
+                android:id="@+id/locality"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_regular"
@@ -82,7 +82,7 @@
                         android:layout_height="23dp"
                         android:src="@drawable/power"/>
                 <TextView
-                    android:id="@+id/distance"
+                    android:id="@+id/power"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="2dp"
@@ -97,7 +97,7 @@
                         android:layout_marginStart="10dp"
                         android:src="@drawable/weakness"/>
                 <TextView
-                    android:id="@+id/gravity"
+                    android:id="@+id/weakness"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"

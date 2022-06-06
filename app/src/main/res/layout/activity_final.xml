@@ -6,7 +6,7 @@
     android:background="@color/red"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".FinalActivity">
+    tools:context="br.unicap.c3.pwm.marvel.FinalActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
