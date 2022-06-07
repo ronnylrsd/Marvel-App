@@ -1,6 +1,5 @@
 package br.unicap.c3.pwm.marvel
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.unicap.c3.pwm.planetas.R

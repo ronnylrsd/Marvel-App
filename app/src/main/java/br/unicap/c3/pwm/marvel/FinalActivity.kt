@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import br.unicap.c3.pwm.planetas.R
+import br.unicap.c3.pwm.planetas.telaJoao
 import kotlinx.android.synthetic.main.activity_final.*
 
 
@@ -19,10 +20,17 @@ class FinalActivity : AppCompatActivity() {
         davi_info.setOnClickListener {
             openDaviScreen()
         }
+        joao_info.setOnClickListener{
+            abreTelaJoao()
+        }
     }
 
     private fun openDaviScreen() {
         val intent = Intent(this, daviScreen::class.java)
+        startActivity(intent)
+    }
+    private fun abreTelaJoao(){
+        val intent = Intent(this, telaJoao::class.java)
         startActivity(intent)
     }
 }

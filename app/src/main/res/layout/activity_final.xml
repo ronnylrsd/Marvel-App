@@ -35,7 +35,8 @@
                 android:layout_width="200dp"
                 android:layout_height="180dp"
                 android:src="@drawable/joao"
-                android:elevation="40dp"/>
+                android:elevation="40dp"
+                android:id="@+id/joao_info"/>
 
             <ImageView
                 android:layout_width="200dp"
