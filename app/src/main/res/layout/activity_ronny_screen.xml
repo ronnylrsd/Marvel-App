@@ -46,7 +46,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/poppins_regular"
-                android:text="Tenho uma experiência de quase 2 anos, no mundo da programação. Minha especialidade é criar websites, criação de bots, personalização de sites, e muito mais..."
+                android:text="
+I have almost 2 years of experience in the programming world. My specialty is creating websites, creating bots, customizing websites, and much more..."
                 android:textColor="@color/subtext"
                 android:textSize="20sp"/>
 
