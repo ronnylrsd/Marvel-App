@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="br.unicap.c3.pwm.planetas">
+    package="br.unicap.c3.pwm.sobre" >
 
     <application
         android:allowBackup="true"
@@ -12,11 +12,14 @@
         android:roundIcon="@drawable/marvel"
         android:supportsRtl="true"
         android:theme="@style/Theme.Planetas"
-        tools:targetApi="31">
+        tools:targetApi="31" >
         <activity
-            android:name="br.unicap.c3.pwm.planetas.telaJoao"
+            android:name=".RonnyScreen"
+            android:exported="true" />
+        <activity
+            android:name=".telaJoao"
             android:exported="false"
-            tools:ignore="AppLinkUrlError">
+            tools:ignore="AppLinkUrlError" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -24,9 +27,9 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="http"
                     android:host="github.com"
-                    android:pathPrefix="/github_joao" />
+                    android:pathPrefix="/github_joao"
+                    android:scheme="http" />
             </intent-filter>
         </activity>
         <activity
@@ -35,7 +38,7 @@
         <activity
             android:name="br.unicap.c3.pwm.marvel.SplashScreen"
             android:exported="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

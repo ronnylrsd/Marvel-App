@@ -4,8 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import br.unicap.c3.pwm.planetas.R
-import br.unicap.c3.pwm.planetas.telaJoao
+import br.unicap.c3.pwm.sobre.R
+import br.unicap.c3.pwm.sobre.RonnyScreen
+import br.unicap.c3.pwm.sobre.telaJoao
 import kotlinx.android.synthetic.main.activity_final.*
 
 
@@ -23,6 +24,9 @@ class FinalActivity : AppCompatActivity() {
         joao_info.setOnClickListener{
             abreTelaJoao()
         }
+        ronny_info.setOnClickListener{
+            openRonnyScreen()
+        }
     }
 
     private fun openDaviScreen() {
@@ -31,6 +35,10 @@ class FinalActivity : AppCompatActivity() {
     }
     private fun abreTelaJoao(){
         val intent = Intent(this, telaJoao::class.java)
+        startActivity(intent)
+    }
+    private fun openRonnyScreen(){
+        val intent = Intent(this, RonnyScreen::class.java)
         startActivity(intent)
     }
 }

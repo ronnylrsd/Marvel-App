@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import br.unicap.c3.pwm.planetas.R
+import br.unicap.c3.pwm.sobre.R
 import kotlinx.android.synthetic.main.view.view.*
 
 class Adapter(var marvel:List<MarvelData>): RecyclerView.Adapter<Adapter.myViewHolder>() {

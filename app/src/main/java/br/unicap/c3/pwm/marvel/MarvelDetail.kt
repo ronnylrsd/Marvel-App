@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import br.unicap.c3.pwm.planetas.R
+import br.unicap.c3.pwm.sobre.R
 import kotlinx.android.synthetic.main.activity_planet_detail.*
 
 class MarvelDetail : AppCompatActivity() {

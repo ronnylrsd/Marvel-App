@@ -1,4 +1,4 @@
-package br.unicap.c3.pwm.planetas
+package br.unicap.c3.pwm.sobre
 
 import android.content.Intent
 import android.net.Uri
