@@ -1,4 +1,4 @@
-<h1 align="center">APP-Planetas</h1>
+<h1 align="center">Marvel-App</h1>
 
 <h3 align="center">Tudo sobre planetas do nosso sistema solar!</h3>
 
